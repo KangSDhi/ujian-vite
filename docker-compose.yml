@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  app:
+    container_name: simulasi-vite-app
+    image: node:lts
+    working_dir: /var/www/html/app/
+    entrypoint: ["npm", "run", "dev"]
+    ports:
+      - 8083:8000
+    volumes:
+      - ./:/var/www/html/app
+    tty: true
