@@ -1,5 +1,17 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello Aplikasi Ujian
-  </h1>
+    <RouterView></RouterView>
 </template>
+
+<script>
+export default {
+  name: 'Root',
+  watch: {
+    $route: {
+      immediate: true,
+      handler(to, from) {
+        document.title = to.meta.title || 'Aplikasi Ujian';
+      }
+    }
+  }
+}
+</script>
