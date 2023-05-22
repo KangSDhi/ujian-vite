@@ -20,7 +20,7 @@
 
 
 <script>
-import BaseLayout from "../landing/layouts/BaseLayout.vue";
+import BaseLayout from "./layouts/BaseLayout.vue";
 
 export default {
     components: {
