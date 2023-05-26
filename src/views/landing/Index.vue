@@ -8,11 +8,11 @@
                 src="../../../public/img/assets-cbt.jpg"
                 />
             </div>
-            <h2 class="mb-2 block font-sans text-4xl font-semibold leading-[1.3] tracking-normal text-blue-gray-900 antialiased">
+            <h2 class="font-sans text-4xl font-semibold mb-2 leading-[1.3] tracking-normal text-blue-gray-900 antialiased">
                 Selamat Datang Di Aplikasi Ujian
             </h2>
-            <p class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam amet debitis explicabo consequatur molestias autem esse porro ad perspiciatis sequi vel distinctio, enim saepe sunt ducimus! Provident enim dignissimos hic.
+            <p class="font-sans text-base leading-relaxed text-gray-700 antialiased">
+                Aplikasi Ujian Berbasis Web Base Sehingga Ujian Dapat Dilakukan Kapan dan Darimana Saja.
             </p>
         </template>
     </BaseLayout>
