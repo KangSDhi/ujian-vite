@@ -1,5 +1,5 @@
 <template>
-    <BaseLayout>
+    <BaseLayout v-bind:dataFromContent="dataFromContent">
         <template #content>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dolor at nulla euismod fermentum cursus pharetra libero. Nullam vehicula mi neque, nec sagittis mauris venenatis nec. Cras tempor iaculis nulla at venenatis. Suspendisse a nunc finibus, tempus sem eu, varius nunc. Nam et velit magna. Etiam in ex metus. Maecenas a egestas ipsum, id iaculis eros. Nullam non sagittis sapien, eget iaculis sem. Curabitur pellentesque turpis in venenatis condimentum. Aenean et lobortis nisl. Nulla euismod ullamcorper elit sed posuere.
 
@@ -110,6 +110,13 @@ import BaseLayout from './layouts/BaseLayout.vue';
 export default {
     components: {
         BaseLayout
+    },
+    data() {
+        return {
+            dataFromContent: {
+                sidebar: 'dashboard'
+            }
+        }
     }
 }
 </script>
