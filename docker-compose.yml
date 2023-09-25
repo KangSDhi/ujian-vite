@@ -4,7 +4,7 @@ services:
 
   app:
     container_name: simulasi-vite-app
-    image: node:lts
+    image: node:20.6.0
     working_dir: /var/www/html/app/
     entrypoint: ["npm", "run", "dev"]
     ports:
